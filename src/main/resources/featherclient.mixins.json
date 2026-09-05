@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.featherclient.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityRenderDispatcherMixin",
+    "ParticleManagerMixin",
+    "WorldRendererMixin",
+    "GameRendererMixin"
+  ],
+  "client": [
+    "EntityRenderDispatcherMixin",
+    "ParticleManagerMixin",
+    "WorldRendererMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

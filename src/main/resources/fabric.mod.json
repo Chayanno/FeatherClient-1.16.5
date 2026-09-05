@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "featherclient",
+  "version": "${version}",
+  "name": "FeatherClient",
+  "description": "Lightweight Minecraft client for low-end PCs with HUD modules",
+  "authors": [
+    "Chayanno"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Chayanno/FeatherClient-1.16.5",
+    "sources": "https://github.com/Chayanno/FeatherClient-1.16.5"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.featherclient.FeatherClientMain"
+    ]
+  },
+  "mixins": [
+    "featherclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
